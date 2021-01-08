@@ -1,0 +1,74 @@
+
+body {
+
+font-family: 'Noto Sans JP', sans-serif;
+  margin: 0em;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Fjalla One', sans-serif;
+}
+.cover{
+  height:400px;
+  background-image: url(https://cdn.glitch.com/c3422a15-9398-43ca-bdae-9589bd1109f1%2Frsz_thisisengineering-raeng-hdpbafembi4-unsplash.jpg?v=1609946008485);
+  background-size: cover;
+  background-position:center;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode:darken;
+  color:white;
+}
+
+.cover-small{
+  height: 200px;
+  background-blend-mode:normal;
+  
+}
+.card{
+  border: 0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0,0.1),0 2px 4px -1px rgba(0, 0, 0,0.06);
+  
+}
+.card-body{
+  height: 153px;
+}
+
+.card-title{
+  min-height: 3rem;
+}
+
+.card-text{
+  min-height: 10rem;
+}
+
+.product-stripe{
+  overflow-x:scroll;
+  padding; 1rem;
+  padding-bottom: 1rem;
+  
+}
+
+.stripe-container{
+  display:flex;
+  
+}
+
+.stripe-container .card{
+  width:300px;
+  flex-shrink:0;
+  margin-right:1rem;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: #1DA0E4;
+}
+
+.bg-dark {
+    background-color: #000000!important;
+}
+.mapa{
+  color:black;
+}
